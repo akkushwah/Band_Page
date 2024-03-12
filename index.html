@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Template</title>
+  <!-- Font Awesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Styling Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <nav>
+    <div class="logo">
+      <h1>BanD</h1>
+    </div>
+    <div class="nav-items active">
+      <a href="#">HOME</a>
+      <a href="#band">BAND</a>
+      <a href="#tour">TOUR</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#" class="more">MORE <i class="fa fa-caret-down "></i>
+        <span class="dropdown">
+          <p>Merchandise</p>
+          <p>Extra</p>
+          <p>Media</p>
+        </span>
+      </a>
+      <a class="search-icon" href="https://www.google.com/" target="_blank">
+        <i class="fa fa-search icon" aria-hidden="true"></i>
+      </a>
+    </div>
+    <a class="menu-icon">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+  </nav>
+
+  <!-- Hero carousel -->
+  <section class="hero-section">
+    <div class="mySlides">
+      <div class="hero-title">
+        <h3 class="subheading">New York</h3>
+        <p>The atmosphere in network is lorem ipsum</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Band Section -->
+  <section class="band-section" id="band">
+    <div class="band-container">
+      <h1>THE BAND</h1>
+      <i class="italic-subheading">We love music</i>
+      <p class="band-para">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.</p>
+
+      <div class="para-items">
+        <div class="image-div">
+          <p>Name</p>
+          <img src="images/bandmember.jpg">
+        </div>
+        <div class="image-div">
+          <p>Name</p>
+          <img src="images/bandmember.jpg">
+        </div>
+        <div class="image-div">
+          <p>Name</p>
+          <img src="images/bandmember.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tour Section -->
+
+  <section class="tour-section" id="tour">
+    <div class="tour-container">
+      <div class="tour-heading">
+        <h1>TOUR DATES</h1>
+        <i class="italic-subheading">Remember to book your tickets!</i>
+      </div>
+      <div class="tour-dates">
+        <p class="dates">September <span class="sold-out">Sold out</span></p>
+        <hr>
+        <p class="dates">October <span class="sold-out">Sold out</span></p>
+        <hr>
+        <p class="dates">November</p>
+      </div>
+      <div class="cards">
+        <div class="card card1">
+          <img src="images/newyork.jpg" alt="">
+          <div class="card-content">
+            <h4>New York</h4>
+            <span class="italic-subheading">Fri 27 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="buy-btn">Buy Tickets</button>
+          </div>
+        </div>
+
+        <div class="card card1">
+          <img src="images/paris.jpg" alt="">
+          <div class="card-content">
+            <h4>Paris</h4>
+            <span class="italic-subheading">Fri 27 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="buy-btn">Buy Tickets</button>
+          </div>
+        </div>
+        <div class="card card1">
+          <img src="images/sanfran.jpg" alt="">
+          <div class="card-content">
+            <h4>San Francisco</h4>
+            <span class="italic-subheading">Fri 27 Nov 2016</span>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="buy-btn">Buy Tickets</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact section -->
+
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <h1 contact-heading>CONTACT</h1>
+      <i class="italic-subheading">Fan? Drop a note!</i>
+      <div class="contact-details">
+        <div class="address">
+          <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+          <p><i class="fa-solid fa-envelope"></i> Phone: +00 151515</p>
+          <p><i class="fa-solid fa-phone"></i> Email: mail@mail.com</p>
+        </div>
+
+        <div class="cont-form">
+          <form action="">
+            <p class="details">
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+            </p>
+            <p>
+              <input type="text" placeholder="Messages" class="contact-msg">
+            </p>
+            <div class="btn">
+              <button type="submit" class="buy-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- City Section -->
+
+  <section class="city-container">
+
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer">
+    <p>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </p>
+    <p>© All rights reserved</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
