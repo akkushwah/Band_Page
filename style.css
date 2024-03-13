@@ -365,10 +365,11 @@ p:hover {
     bottom:5rem; 
     flex-direction: column;
     width:100%;
+    height: 50vh;
     text-align: center;
     transition: all 1s ease-in-out;
     z-index: 10px;
-    background-color: #343131dd !important; 
+    background-color: #161616f0 ; 
   }
   .nav-items.active{
     top:3.4rem; 
